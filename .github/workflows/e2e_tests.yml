@@ -2,6 +2,7 @@ name: "Run E2E"
 
 on:
   workflow_call:
+  workflow_dispatch:
     inputs:
       sha:
         required: true
